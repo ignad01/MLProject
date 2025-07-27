@@ -51,8 +51,8 @@ class DataTransformation:
                 ]
             )
 
-            logging.info("Categorical columns: {categorical_columns}")
-            logging.info("Numerical columns: {numerical_columns}")
+            logging.info(f"Categorical columns: {categorical_columns}")
+            logging.info(f"Numerical columns: {numerical_columns}")
 
             preprocessor = ColumnTransformer(
                 [
